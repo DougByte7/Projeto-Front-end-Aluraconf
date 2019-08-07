@@ -95,6 +95,7 @@ table {
 @media (min-width: 650px) {
   .jumbotron {
     font-size: 28px; } }
+/* About */
 .about {
   text-align: center;
   padding: 1ch; }
@@ -106,5 +107,40 @@ table {
     margin-bottom: 15px; }
   .about .content {
     line-height: 2; }
+
+/* Speakers */
+.speakers {
+  background-color: #f17d50;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px; }
+  .speakers .title {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-bottom: 15px; }
+  .speakers .subtitle {
+    font-size: 1.7em;
+    padding: 0 15px; }
+  .speakers .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center; }
+
+.card {
+  background-color: white;
+  color: black;
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px; }
+  .card .avatar img {
+    border-radius: 50%; }
+  .card .avatar .name {
+    font-weight: 100;
+    margin: 15px 0; }
+  .card .description {
+    font-weight: 100; }
 
 /*# sourceMappingURL=style.css.map */
