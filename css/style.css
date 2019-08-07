@@ -95,5 +95,16 @@ table {
 @media (min-width: 650px) {
   .jumbotron {
     font-size: 28px; } }
+.about {
+  text-align: center;
+  padding: 1ch; }
+  .about .title {
+    font-size: 2em;
+    margin: 15px 0; }
+  .about .subtitle {
+    font-size: 1.4em;
+    margin-bottom: 15px; }
+  .about .content {
+    line-height: 2; }
 
 /*# sourceMappingURL=style.css.map */
