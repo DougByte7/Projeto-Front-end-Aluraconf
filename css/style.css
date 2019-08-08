@@ -45,6 +45,36 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+label {
+  width: min-content;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: bold; }
+  label input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 2ch;
+    width: 80vw;
+    font-size: 1.1em; }
+
+.button {
+  background-color: #48A3A6;
+  margin-bottom: 25px;
+  padding: 2.5ch 4ch;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.5s; }
+
+.button:hover, .button:focus {
+  cursor: pointer;
+  background-color: #409294; }
+
 /*Header styles*/
 .header {
   background: url("../img/destaque.jpeg") no-repeat;
@@ -82,15 +112,6 @@ table {
     font-size: 2.5em;
     color: #69e53e;
     margin-bottom: 25px; }
-  .jumbotron .sing-up {
-    padding: 3ch 4ch;
-    border-radius: 5px;
-    box-shadow: 0 0 5px black;
-    background-color: #48A3A6;
-    color: white;
-    text-decoration: none;
-    font-size: 1.15rem;
-    margin-bottom: 40px; }
 
 @media (min-width: 650px) {
   .jumbotron {
@@ -142,5 +163,17 @@ table {
     margin: 15px 0; }
   .card .description {
     font-weight: 100; }
+
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .form .title {
+    color: #f17d50;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px; }
 
 /*# sourceMappingURL=style.css.map */
